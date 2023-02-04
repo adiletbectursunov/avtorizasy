@@ -1,24 +1,34 @@
-import logo from './logo.svg';
 import './App.css';
+import { Routes , Route } from 'react-router-dom'
+import Headre from './components/Headre/Headre'
+import { Middle } from './components/avtorizasy/Middle';
+import { Registrations }  from './components/registration/Registrations';
+import { Reestablish } from './components/reestablish/Reestablish'
+import { Section } from './components/Section/Section';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+     <div>
+      <Headre/>
+      {/* <Reestablish/> */}
+
+      {/* <Section/>
+      <Footer/> */}
+      <Middle/> 
+      {/* <Registrations/> */}
+ 
+{/* 
+      <Routes>
+        <Route path='/' element={<Registrations/>} /> 
+        <Route path='/registrations/:sectionId/' element={<Registrations/>} />  
+        <Route path='/registrations' element={<Registrations/>}/>    
+        <Route path="/middle" element={<Middle/>} />
+        <Route path='/section' element={<Section/>} />
+        <Route path='middle/:reestablishId/' element={<Reestablish />}/> 
+        <Route path='/reestablish' element={<Reestablish/>}/>
+      </Routes> */}
+     </div>
   );
 }
 

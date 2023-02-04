@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding:0;
+}
+.container{
+    
+    width: 1200px;
+    margin: 0 auto;
+       
+}
+
+.div{
+    display: flex;
+    width: 202px;
+    height: 44px;
+    margin-left: 525px;
+    margin-top: 25px;
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;    
+}
+.type{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px; 
+    color: #FFFFFF;   
+    width: 458px;
+    height: 59px;
+    margin-left: 95px;
+    margin-top: 58px;
+    outline: none;
+    
+
+    border: 2px solid #0761DC;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 10px;  
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.text{
+
+
+    text-align: center;
+    justify-content: space-around;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px; 
+    color: #FFFFFF;   
+    width: 458px;
+    height: 59px;
+    margin-left: 95px;
+    margin-top: 58px;
+    border: 2px solid #0761DC;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    outline: none; 
+}
+.usere{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px; 
+    color: #FFFFFF;   
+    width: 458px;
+    height: 59px;
+    margin-left: 95px;
+    margin-top: 58px;
+    outline: none;
+    border: 2px solid #0761DC;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+}
+
+.eye {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    box-shadow: #fdd6f1 0 px 5 px 15 px ;
+    outline: none;
+    
+    color: #ffffff;    
+    width: 458px;
+    height: 59px;
+    margin-left: 668px;
+    margin-top: -293px;
+    
+    
+    border: 2px solid #0761DC;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 10px; 
+}
+.password span {
+    display: flex;
+    margin-top: -40px;
+    margin-left: 1068px;
+    color: #767676;
+    cursor: pointer;
+
+}
+
+.patt {
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: space-around;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    outline: none;
+    
+    color: #ffffff;    
+    width: 458px;
+    height: 59px;
+    margin-left: 668px;
+    margin-top: 73px;
+    
+    
+    border: 2px solid #0761DC;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 10px;   
+}
+.pass span {
+    display: flex;
+    margin-top: -40px;
+    margin-left: 1068px;
+    color: #767676;
+    cursor: pointer;
+}
+/* button */
+
+.button{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;    
+    padding: 22px 62px;
+    color: #FFFFFF;
+    gap: 10px;
+    
+    display: flex;
+    width: 245px;
+    height: 62px;
+    margin-left: 494px;
+    margin-top: 180px;
+    
+    background: #0761DC;
+    border-radius: 10px; 
+    border: none;   
+}
+.button:hover, .button:active {
+    background: #0f4085;
+    border-color: #0761DC;
+}
+.button:focus {
+    outline: none;
+}
+
+/* ul li 2  */
+.netu{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    margin-left: 31.74%;
+    margin-right: 48.96%;
+    margin-top: 10.89%;
+    bottom: 17.78%;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+    
+    color: #767676;    
+}
+.zabli{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+    gap: -14px;
+   
+    margin-left: 51.5%;
+    margin-right: 26.81%;
+    margin-top: -27px;
+    bottom: 17.78%;
+    
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+
+    /* or 30px */
+    color: #767676;    
+}
+a{
+    color: #0761DC;
+}
+
+
+ 

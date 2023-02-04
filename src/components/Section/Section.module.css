@@ -1,0 +1,231 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+.line{
+    display: flex;
+    width: 1439px;
+    height: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    color: #0761DC;
+    background: #0547A3;    
+}
+.avtori{
+    display: flex;
+    width: 206px;
+    height: 44px;
+    margin-left: 625px;
+    margin-top: 50px;
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 44px;
+    /* identical to box height */
+    
+    
+    color: #FFFFFF;
+    
+/* button     */
+}
+.elekadres{
+    display: flex;
+    width: 386px;
+    height: 49px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 15px;
+    align-items: center;
+    margin-left: 519px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.178);
+    border: 2px solid #0761DC;
+    border-radius: 10px;      
+}
+.voitiface{
+    display: flex;
+    width: 386px;
+    height: 49px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 15px;
+    margin-left: 519px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.178);
+    border: 2px solid #0761DC;
+    border-radius: 10px; 
+}
+.voitigoogle{
+    display: flex;
+    width: 386px;
+    height: 49px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 15px;
+    align-items: center;
+    margin-left: 519px;
+    margin-top: 30px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.178);
+    border: 2px solid #0761DC;
+    border-radius: 10px; 
+}
+/* img */
+
+.facebooc{
+    position: absolute;
+    left: 592px;
+    top: 370px;
+}
+.google{
+    position: absolute;
+    left: 589px;
+    top: 452px;
+}
+/* Footer */
+
+.div{
+    display: flex;
+    margin-left: 24.65%;
+    margin-right: 24.38%;
+    margin-top: 86px;
+    bottom: 26.89%;
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    /* or 27px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 5px;
+    
+    color: #767676;    
+}
+.ul{
+    color: blue;
+    list-style: none;
+}
+
+.none{
+        
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+
+    margin-left: 114.81%;
+    margin-right: 48.89%;
+    margin-top: 41px;
+    bottom: 17.78%;
+    list-style: none;
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 150%;
+    gap: 0px;
+    /* identical to box height, or 30px */
+
+    
+    color: #767676;    
+}
+.zarig{
+    display: flex;
+    margin-left: 30px;
+    margin-top: -14px;
+  
+    color: blue;
+
+}
+
+.footer{
+    display: flex;
+    margin-left: 44.44%;
+    margin-right: 44.38%;
+    margin-top: 6.67%;
+    bottom: 6%;
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #767676;    
+}
+
+.netu{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 26.74%;
+    margin-right: 48.96%;
+    margin-top: 3.89%;
+    bottom: 17.78%;
+    gap: 0px;
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    /* identical to box height, or 30px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #767676;    
+}
+.net{
+    margin-top: 0px;
+    margin-left: 0px;
+    color: #0761DC;
+}
+.zabl{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-left: 52.5%;
+    margin-right: 26.81%;
+    margin-top: -2%;
+    bottom: 17.78%;
+    
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    /* or 30px */
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #767676;    
+}
+p{
+    color: #0761DC;
+}
