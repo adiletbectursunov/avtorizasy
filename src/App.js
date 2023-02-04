@@ -15,10 +15,10 @@ function App() {
 
       {/* <Section/>
       <Footer/> */}
-      <Middle/> 
+      {/* <Middle/>  */}
       {/* <Registrations/> */}
  
-{/* 
+
       <Routes>
         <Route path='/' element={<Registrations/>} /> 
         <Route path='/registrations/:sectionId/' element={<Registrations/>} />  
@@ -27,7 +27,7 @@ function App() {
         <Route path='/section' element={<Section/>} />
         <Route path='middle/:reestablishId/' element={<Reestablish />}/> 
         <Route path='/reestablish' element={<Reestablish/>}/>
-      </Routes> */}
+      </Routes>
      </div>
   );
 }

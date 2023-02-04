@@ -98,7 +98,7 @@
     
     color: #FFFFFF;    
     margin-left: 636px;
-    margin-top: 167px;
+    margin-top: 86px;
     
     background: #0761DC;
     border: none;
@@ -162,24 +162,4 @@
 }
 p{
     color: #0761DC;
-}
-label{
-    margin-left: 0px;
-    text-align: center;
-    color: #FFFFFF;
-}
-.name{
-    display: flex;
-    margin-top: -71px;
-    margin-left: 643px;
-    color: red;
-}
-.last_name{
-    display: flex;
-    margin-top: -158px;
-    margin-left: 625px;
-    color: red;
-}
-.div_ul{
-    margin-top: 245px;
 }
