@@ -11,14 +11,6 @@ function App() {
   return (
      <div>
       <Headre/>
-      {/* <Reestablish/> */}
-
-      {/* <Section/>
-      <Footer/> */}
-      {/* <Middle/>  */}
-      {/* <Registrations/> */}
- 
-
       <Routes>
         <Route path='/' element={<Registrations/>} /> 
         <Route path='/registrations/:sectionId/' element={<Registrations/>} />  
